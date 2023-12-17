@@ -1,0 +1,222 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #9EC8B9;
+    background-color: #5C8374;
+}
+
+a {
+    text-decoration: none;
+    color: #1B4242;
+    transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+    color: #5C8374;
+}
+
+header {
+    background-color: #5C8374;
+    color: #9EC8B9;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1B4242;
+    padding: 1rem;
+}
+
+nav li {
+    margin: 0 0.5rem;
+}
+
+nav a {
+    font-weight: 500;
+    color: #9EC8B9;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+section {
+    border-bottom: 1px solid #9EC8B9;
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+}
+
+h1, h2, h3, h4 {
+    margin: 0 0 1rem;
+    font-family: 'Playfair Display', serif;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #9EC8B9;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #5C8374;
+}
+
+h3 {
+    font-size: 1.25rem;
+    color: #9EC8B9;
+    border-bottom: 2px solid #1B4242;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+h4 {
+    font-size: 1rem;
+    color: #1B4242;
+    margin-bottom: 0.5rem;
+}
+
+.info {
+    margin-bottom: 1rem;
+}
+
+.exercise {
+    margin-bottom: 1rem;
+    padding: 0 1rem;
+    border-radius: 8px;
+    background-color:  #1B4242;
+    color: #5C8374;
+}
+
+.exercise h4 {
+    color: #5C8374;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+p {
+    line-height: 1.5;
+    color: #9EC8B9;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #5C8374;
+}
+
+footer p {
+    margin: 0;
+    color: #9EC8B9;
+}
+
+#personal {
+    background-color: #5C8374;
+    padding: 2rem;
+    margin-top: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#fitnessForm {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+#fitnessForm label {
+    font-weight: bold;
+    color: #5C8374;
+}
+
+#fitnessForm input,
+#fitnessForm select {
+    padding: 0.5rem;
+    border: 1px solid #9EC8B9;
+    border-radius: 4px;
+}
+
+#fitnessForm button {
+    background-color: #1B4242;
+    color: #9EC8B9;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+#fitnessForm button:hover {
+    background-color: #5C8374;
+    color: #9EC8B9;
+}
+
+#userDataTable {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+#userDataTable th,
+#userDataTable td {
+    padding: 0.5rem;
+    border: 1px solid #9EC8B9;
+}
+
+#userDataTable th {
+    font-weight: bold;
+    color: #5C8374;
+}
+
+#personalizedTips img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+.exercise img,
+.activity img {
+    max-width: 100%;
+    height: auto;
+    width: 1000px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+#fitnessForm label,
+#userDataTable thead tr th {
+    color: black;
+}
+
+h2 {
+    color: #9EC8B9;
+}
+
+tbody {
+    align-items: center;
+    text-align: center;
+}
+
+sticky-header {
+    display: block;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    
+}
